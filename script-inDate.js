@@ -194,7 +194,6 @@ if(typeof sprintf != 'function'){
 		};
 		// fonction to set a value into the input
 		var ID_setValue = function(d,m,y) {
-console.log("ID_setValue "+d+" "+m+" "+y);
 			function pad (str, max) {
 				str = str.toString();
 				return str.length < max ? pad("0" + str, max) : str;
