@@ -8,13 +8,13 @@
 			to use it, considering the following html :
 			<input type="text" value="26/09/1985" id="foo" name="date">
 
-			var inputdate = $("#foo").inputDate({
+			var inputdate = $("#foo").inDate({
 				placeholder:"jj/mm/aaaa",
 				dateMin:"12/03/1800",
 				dateMax:"01/12/2014"
 			});
 			-or-
-			var inputdate = $("#foo").inputDate();
+			var inputdate = $("#foo").inDate();
 			list of available methods
 			-todo-
 			
