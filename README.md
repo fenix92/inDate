@@ -53,7 +53,7 @@ The plugin is dealing with the text of the input. You can't write letters. Only 
 
 Once tipping a date, people like to enter 31/12/85. The year is here with 2-digits, but the pluggin forces to be 4-digits, he will convert "85" to "1985".
 
-Now, Let's say we have the date "12/04/1956" in the \<input\>. The user wants to change to "12/04/1856" (100 years before). He will just select the "9" of the year and change it into "8" and press enter. The pluggin will see that the cursor is after the second digit of the year, and deduce that the user wanted to enter a year with 2 digits. He will naturally extract the "18" of the date (2 first digits) and add "19" (of 1900) before, changing "1856" into "1918". To get 1856, the user will have to type the full year.
+Now, Let's say we have the date "12/04/1956" in the \<input\>. The user wants to change to "12/04/1856" (100 years before). He will just select the "9" of the year and change it into "8" and press enter. The pluggin will see that the cursor is after the second digit of the year, and deduce that the user wanted to enter a year with 2 digits. He will naturally read "12/04/18", extracting the "18" of the date (2 first digits) and add "19" (of 1900) before, changing "1856" into "1918". To get 1856, the user will have to type the full year.
 
 
 ### Ideas of upgrade :
