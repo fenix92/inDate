@@ -3,7 +3,7 @@
 **jQuery** plugin that force an input (type text) to reicive a DATE value **DD/MM/YYYY** (day/month/year). Nothing else. Easy to use, and user-friendly. Simply fill the form with the num keypad.
 
 I know, it already exists \<input type="date"\>, but the date-format is mm-dd-yyyy and you can't change it. Me I need dd-mm-yyyy.
-It also already exists a lot of very good datePicker pluggins, but most of them are used with the mouse and show a calendar, and i wanted something really simple for <forms>, editable only with keyboards.
+It also already exists a lot of very good datePicker pluggins, but most of them are used with the mouse and show a calendar, and i wanted something really simple for \<forms\>, editable only with keyboards.
 
 
 online-example : http://clamart-natation.com/inDate/
@@ -53,7 +53,7 @@ The plugin is dealing with the text of the input. You can't write letters. Only 
 
 Once tipping a date, people like to enter 31/12/85. The year is here with 2-digits, but the pluggin forces to be 4-digits, he will convert "85" to "1985".
 
-Now, Let's say we have the date "12/04/1956" in the <input>. The user wants to change to "12/04/1856" (100 years before). He will just select the "9" of the year and change it into "8" and press enter. The pluggin will see that the cursor is after the second digit of the year, and deduce that the user wanted to enter a year with 2 digits. He will naturally extract the "18" of the date (2 first digits) and add "19" (of 1900) before, changing "1856" into "1918". To get 1856, the user will have to type the full year.
+Now, Let's say we have the date "12/04/1956" in the \<input\>. The user wants to change to "12/04/1856" (100 years before). He will just select the "9" of the year and change it into "8" and press enter. The pluggin will see that the cursor is after the second digit of the year, and deduce that the user wanted to enter a year with 2 digits. He will naturally extract the "18" of the date (2 first digits) and add "19" (of 1900) before, changing "1856" into "1918". To get 1856, the user will have to type the full year.
 
 
 ### Ideas of upgrade :
