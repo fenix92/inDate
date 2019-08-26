@@ -59,6 +59,7 @@ Now, Let's say we have the date "12/04/1956" in the \<input\>. The user wants to
 ### Ideas of upgrade :
 
  - check if the default dateMin is lower than dateMax
+ - add a "getAge" method that will return the age of a given date
 
 
 Any comments or suggestions are welcome !
