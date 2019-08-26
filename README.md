@@ -46,7 +46,7 @@ This plugin authorise few separators (your can write 01/01/2000 or 01.01.2000 or
 This add the separator "/", with the event.keyCode (onKeyPress) = 47 and event.keyCode (onKeyUp) = 191
 (check http://www.asquare.net/javascript/tests/KeyCode.html for values)
 
-The plugin is dealing with the text of the input. You can't write letters. Only separators and numbers. Please also note than the .CSS file is loaded in the script you can modify the link inside (but loading the CSS file normaly is working too !)
+The plugin is dealing with the text of the input. You can't write letters. Only separators and numbers. Please also note that the .CSS file is loaded in the script you can modify the link inside (but loading the CSS file normaly is working too !)
 
 
 ### Known issue :
