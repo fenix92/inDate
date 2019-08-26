@@ -2,7 +2,7 @@
 
 **jQuery** plugin that force an input (type text) to reicive a DATE value **DD/MM/YYYY** (day/month/year). Nothing else. Easy to use, and user-friendly. Simply fill the form with the num keypad.
 
-I know, it already exists <input type="date">, but the date-format is mm-dd-yyyy and you can't change it. Me I need dd-mm-yyyy.
+I know, it already exists \<input type="date"\>, but the date-format is mm-dd-yyyy and you can't change it. Me I need dd-mm-yyyy.
 It also already exists a lot of very good datePicker pluggins, but most of them are used with the mouse and show a calendar, and i wanted something really simple for <forms>, editable only with keyboards.
 
 
