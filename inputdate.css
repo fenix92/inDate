@@ -1,0 +1,15 @@
+/*
+		=================================
+						
+			CSS InputDate	
+						
+	 	=================================
+
+								*/
+
+html,body{
+}
+/* when the script correct the value of the input, we add this class to it */
+.input_date_error{
+	color:red;
+}

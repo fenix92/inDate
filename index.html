@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>test inputDate</title>
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<style media="screen" type="text/css">
+html,body{height:100%;}
+		</style>
+	</head>
+	<body bgcolor="white">
+		<p>date max : 26/09/2100</p>
+		<p>date min : 06/10/1900</p>
+		<p>date example default : 26/09/1985</p>
+		<input type="text" value="26/09/1985" id="foo" autocomplete="off">
+		<script type="text/javascript">
+ //<![CDATA[
+$(document).ready(function(){
+	var dateInput = $("#foo").inDate({
+				placeholder	: 'jj/mm/aaaa',
+				dateMin : '06/10/1900',
+				dateMax : '26/09/2100'
+			});
+	dateInput.val('32/32/1234');
+	dateInput.checkValue();
+});
+//]]>
+		</script>
+		<script type="text/javascript" src="script-inDate.js"></script>
+	</body>
+</html>
