@@ -16,9 +16,9 @@ To force theses inputs to receive a DD/MM/YYYY value, just insert :
 
     <script type="text/javascript" src="script-inDate.js"></script>
     <script type="text/javascript">
-        var inputDate = $("#foo").inputDate();
+        var inputDate = $("#foo").inDate();
         // or (with all options)
-        var inputDate = $("#foo").inputDate({
+        var inputDate = $("#foo").inDate({
                 placeholder	: "jj/mm/aaaa",
                 dateMin	: "12/03/1800",
                 dateMax	: "01/12/2014"
